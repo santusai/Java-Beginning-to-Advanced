@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Factorial {
 
-	void sum(int a){
+	void fact(int a){
 		int s=1;
 		for(int i=1; i<=a;i++){
 			s=s*i;
@@ -16,7 +16,7 @@ public class Factorial {
 		Factorial test = new Factorial();
 		Scanner entry = new Scanner(System.in);
 		System.out.println("Enter Value to Find Factorial:");		
-		test.sum(entry.nextInt());
+		test.fact(entry.nextInt());
 		
 	}
 

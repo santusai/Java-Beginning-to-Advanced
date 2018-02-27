@@ -1,0 +1,31 @@
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Sum {
+
+	void sum(int a, int b){
+		System.out.println("Sum is:"+(a+b));
+		System.out.println("Substraction is:"+(a-b));
+		System.out.println("Multiplication is:"+(a*b));
+		System.out.println("Division is:"+(a/b));
+		System.out.println("Remainder/Modulo is:"+(a%b));
+		System.out.println("Abs of First Value is:"+(Math.abs(a)));
+		System.out.println("Abs of Second Value is:"+(Math.abs(b)));
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Sum test = new Sum();
+		Scanner entry = new Scanner(System.in);
+		
+		System.out.println("Enter First Value:");	
+		int firstValue =entry.nextInt();
+		System.out.println("Enter Second Value:");	
+		int secondValue =entry.nextInt();
+		test.sum(firstValue,secondValue);
+				
+	}
+
+}
+

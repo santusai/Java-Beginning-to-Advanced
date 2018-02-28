@@ -1,0 +1,22 @@
+boolean	A binary value of either true or false
+byte	8 bit signed value, values from -128 to 127
+short	16 bit signed value, values from -32.768 to 32.767
+char	16 bit Unicode character
+int	32 bit signed value, values from -2.147.483.648 to 2.147.483.647
+long	64 bit signed value, values from -9.223.372.036.854.775.808 to 9.223.372.036.854.775.808
+float	32 bit floating point value
+double	64 bit floating point value
+
+-----------------------------------
+byte (number, 1byte)
+short (number, 2byte)
+int (number, 4byte)
+long (number, 8byte)
+
+boolean (true or false, 1byte)
+char (character, 2byte)
+float (float number, 4byte)
+double (float number, 8byte)
+
+
+-------------------------

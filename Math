@@ -1,0 +1,98 @@
+
+import java.util.Scanner;
+import java.lang.Math;
+import java.*;
+
+public class MathematicalOperations{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double resultDbl3 = 0D;
+		System.out.println("resultDbl3 = " + resultDbl3);
+		//0.0
+		for(int i=0; i<100; i++){
+		    resultDbl3 += 0.01D;
+		}
+		System.out.println("resultDbl3 = " + resultDbl3);
+		//1.000000000000007
+		
+		/*Math.abs(int)
+		Math.abs(long)
+		Math.abs(float)
+		Math.abs(double)*/
+		System.out.println("Abs values: ");
+		System.out.println("int: "+Math.abs(-5));//5
+		System.out.println("long: "+Math.abs(-593488965));
+		System.out.println("float: "+Math.abs(-5.4535456));
+		System.out.println("double: "+Math.abs(-5.8633230090008));
+		//ceil
+		System.out.println("ceil 6.01345: "+Math.ceil(6.01345));//7
+		//floor
+		System.out.println("flooor 6.01345: "+Math.floor(6.01345));//6
+		//Math.floorDiv()
+		System.out.println("double value division: " + (-100/9));
+		//-11
+		System.out.println("double value division: " + (-100.0/9));
+		//-11.1111111111
+		
+		System.out.println("Min(10,20) value: "+Math.min(10, 20));//10
+		System.out.println("Max (10,20) value: "+Math.max(10, 20));//20
+		//Math.round()
+		System.out.println("RoundedDown value: "+Math.round(23.445));
+		System.out.println("RoundedUp value: "+Math.round(23.445));
+		System.out.println("Random (double) 100D value: "+(Math.random()*100D));
+		System.out.println("Exponential value of 1 is: "+Math.exp(1));//2.718281828459045
+		System.out.println("Logarithm value of 10 is: "+Math.log(10));//2.302585092994046
+		System.out.println("Logarithm value of 10 is: "+Math.log10(10));//1
+		System.out.println("Math.pow(2,5) value is: "+Math.pow(2,5));//32
+		System.out.println("Math.sqrt(9) value is: "+Math.sqrt(9));//3
+		
+		//Trigonometric Math
+		System.out.println("sin = " + Math.sin(Math.PI));//1.2246467991473532E-16
+		System.out.println("cos = " + Math.cos(Math.PI));
+		System.out.println("tan = " + Math.tan(Math.PI));
+		System.out.println("asin = " + Math.asin(Math.PI));
+		System.out.println("acos = " + Math.acos(Math.PI));
+		System.out.println("atan = " + Math.atan(Math.PI));
+		System.out.println("Math.toDegrees() " + Math.toDegrees(Math.PI));
+		System.out.println("Math.toRadians() " + Math.toDegrees(180));
+		
+	}
+
+}
+=
+/*
+output
+-----------------
+
+resultDbl3 = 0.0
+resultDbl3 = 1.0000000000000007
+Abs values: 
+int: 5
+long: 593488965
+float: 5.4535456
+double: 5.8633230090008
+ceil 6.01345: 7.0
+flooor 6.01345: 6.0
+double value division: -11
+double value division: -11.11111111111111
+Min(10,20) value: 10
+Max (10,20) value: 20
+RoundedDown value: 23
+RoundedUp value: 23
+Random (double) 100D value: 41.284541606858006
+Exponential value of 1 is: 2.718281828459045
+Logarithm value of 10 is: 2.302585092994046
+Logarithm value of 10 is: 1.0
+Math.pow(2,5) value is: 32.0
+Math.sqrt(9) value is: 3.0
+sin = 1.2246467991473532E-16
+cos = -1.0
+tan = -1.2246467991473532E-16
+asin = NaN
+acos = NaN
+atan = 1.2626272556789115
+Math.toDegrees() 180.0
+Math.toRadians() 10313.240312354817
+
+*/

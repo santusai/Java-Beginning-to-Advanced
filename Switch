@@ -1,0 +1,44 @@
+
+import java.util.Scanner;
+import java.lang.Math;
+import java.*;
+
+public class Switch{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter Value 1 to 3:");
+		int val = scan.nextInt();
+		switch(val){
+			case 1:
+				System.out.print("0 to 6 excluding 4: ");
+				for (int j=0; j<=6; j++)
+				{
+			           if (j==4)
+			           {
+				      continue;
+				   }
+
+			           System.out.print(j+" ");
+				}
+				break;
+				//output: 0,1,2,3,5
+				// 4 is not printed bcz continue terminates loop and went to for loop
+			case 2:
+				System.out.println("False");
+				break;
+			case 3:
+				System.out.println("Thank you");
+				break;
+			default: 
+				System.out.println("Entry Out of Range");
+			
+				
+		}
+		
+		
+	}
+
+}
+
